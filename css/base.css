@@ -1,0 +1,320 @@
+*{margin:0;padding:0}
+ol,ul,dl{list-style: none;}
+a{color:#000;text-decoration:none;}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+.clearfix{
+	zoom:1;
+}
+.warper{
+	width:1200;
+	margin:0 auto;
+}
+input{outline: none;border:none}
+.fl{float:left}
+.fr{float:right}
+
+body{
+	width:100%;
+	height:100%;
+	background:url(../images/sky.jpg) no-repeat fixed center top;
+	
+}
+.box{
+	width:100%;
+	height:6800px;
+	position:relative;
+	overflow: hidden;
+}
+.moon{
+	width:358px;
+	height:258px;
+	background:url(../images/moon.png) no-repeat scroll center top;
+	position:fixed;
+	top:10px;
+	left:10px;
+	z-index:-200;
+}
+.clouds{
+	width:100%;
+	height:1407px;
+	background:url(../images/clouds1.png) no-repeat scroll center top;
+	
+	position:relative;
+}
+.hills{
+	width:100%;
+	height:1400px;
+	background:url(../images/hills.png) no-repeat scroll center top;
+	z-index:-100;
+}
+.main{
+	
+	height:1867px;
+	background:url(../images/main1.png) no-repeat scroll center top;
+	position:relative;
+	margin-top:-1400px;
+	z-index:998;
+	
+}
+.main .m-works{
+	width:455px;
+	height:345px;
+	background: url(../images/works.png) no-repeat;
+	opacity: 0.8;
+	position:absolute;
+	top:550px;
+	left:405px;
+}
+.main .m-works li{
+	font-size:28px;
+	color:#000;
+	font-family:黑体;
+	font-weight: bold;
+	margin:38px;
+}
+
+.main .m-works .m-web{
+	width:150px;
+	height:105px;
+	background:pink;
+	border:1px solid #000;
+	position:absolute;
+	top:43px;
+	left:155px;
+	display: none;
+}
+.main .m-works .m-web p{
+	font-size:18px;
+	color:#ccc;
+	margin:5px;
+}
+.main .m-hob{
+	width:700px;
+	position:absolute;
+	top:1200px;
+	left:305px;
+}
+.main .m-hob .poem{
+	width:400px;
+	height:400px;
+	background:#ccc;
+	position:absolute;
+	left:0;
+	top:0;
+	border:1px solid #000;
+}
+.main .m-hob .poem .p-left{
+	width:370px;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+}
+.main .m-hob .poem .p-left .p-cont{
+	background:#333333;
+    width: 100%;
+    color:#fff;
+    position: absolute;
+    left:0;
+    top:0;
+    line-height: 20px;
+}
+.main .m-hob .poem .p-right{
+	width:30px;
+	height:100%;
+	background:#fff;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.main .m-hob .poem .p-right .bar{
+	width:30px;
+	height:50px;
+	background:#ccc;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.main .m-hob .big-draw{
+	width:700px;
+	height:700px;
+	border:2px solid #fff;
+	position:absolute;
+	left:0;
+	top:400px;
+}
+.main .m-hob .big-draw p{
+	font-size: 28px;
+	color:#fff;
+	text-align: center;
+}
+.main .m-hob .draw{
+	width:666px;
+	margin:10px;
+}
+.main .m-hob .draw li{
+	width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    float: left;
+    margin: 10px;
+}
+ .main .m-hob .draw li img{
+    width: 100%;
+    height:100%;
+}
+.clouds .open{
+	width:50px;
+	height:50px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	position:absolute;
+	top:100px;
+	left:20px;
+	padding:18px;
+	cursor:pointer;
+}
+.clouds .open .nav-bar{
+	background-color: #fff;
+    border-radius: 1px;
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin: 0px auto 6px;
+}
+.clouds .menu{
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.8;
+	position: fixed;
+	top:0;
+	left:0;
+	display: none;
+}
+.clouds .menu .sheep-close{
+	position:absolute;
+	top:-13px;
+	left:117px;
+}
+.clouds .menu .menu-cont li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-left:500px;
+}
+.clouds .menu .menu-cont li a:hover{
+	color:#000;
+	background:#fff;
+	
+	
+	
+}
+.clouds .c-main .title{
+	width:500px;
+	margin-left:380px;
+	padding-top:50px;
+}
+.clouds .c-main .title li a:hover{
+	font-size: 70px;
+	color: #333;
+}
+.clouds .c-main .title li{
+	margin:10px;
+	font-size:60px;
+	font-family:Minya Nouvelle, sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px #fff;
+}
+.clouds .c-main .flow{
+	width:112px;
+	height:117px;
+	position: absolute;
+	top:44px;
+	right:250px;
+}
+.clouds .c-main .house{
+	width:200px;
+	height:345px;
+	position:absolute;
+	right:200px;
+	top:162px;
+}
+.clouds .c-main .cont .home1{
+	width:580px;
+	height:440px;
+	border-radius: 10px;
+	background: #ccc;
+	position:absolute;
+	left:380px;
+	top:60px;
+	opacity: 0.9;
+	display: none;
+}
+.clouds .c-main .cont .home1 .sheep{
+	position:absolute;
+	top:-30px;
+	right:-10px;
+}
+.clouds .c-main .cont .home1 .h-cont{
+	width:400px;
+	margin:50px;
+}
+.clouds .c-main .cont .home1 .h-cont span{
+	font-family: 楷体;
+    font-size: 30px;
+    color: #000;
+    opacity:0;
+}
+.clouds .c-main .cont .me{
+	width:580px;
+	height:440px;
+	border-radius: 10px;
+	background: #ccc;
+	position:absolute;
+	left:380px;
+	top:60px;
+	opacity: 0.9;
+	display: none;
+}
+.clouds .c-main .cont .me .sheep{
+	position:absolute;
+	top:-30px;
+	right:-10px;
+}
+.clouds .c-main .cont .me .m-cont{
+	font-size:20px;
+	color:#000;
+	text-align: center;
+}
+.clouds .c-main .cont .Hob{
+	width:580px;
+	height:440px;
+	border-radius: 10px;
+	background: #ccc;
+	position:absolute;
+	left:380px;
+	top:60px;
+	opacity: 0.9;
+	display: none;
+}
+.clouds .c-main .cont .Hob .sheep{
+	position:absolute;
+	top:-30px;
+	right:-10px;
+}
+.clouds .c-main .cont .Hob .H-cont li{
+	font-size:30px;
+	text-align: center;
+	margin:20px;
+	
+}

@@ -1,0 +1,559 @@
+			*{
+				margin:0;
+				padding:0;
+			}
+			.box{
+				
+				margin:0 auto;
+			}
+			.clearfix{
+				display:inline-block;
+				clear:both;
+				content:"";
+			}
+			.clearfix{
+				zoom:1;
+			}
+			a{
+				text-decoration:none;
+				color:#000;
+			}
+			ul{
+				list-style:none;
+			}
+			.t-box .title{
+				width:1349px;
+				height:20px;
+				background:#f9f9f9;
+				border-bottom:1px solid #dddddd;
+				padding-top:10px;
+			}
+			.t-box .title .title-l{
+				float:left;
+				margin-left:90px;
+				line-height:15px;
+			}
+			.t-box .title .title-l li{
+				float:left;
+				margin-right:15px;
+			}
+			.t-box .title .title-l .t-1 i{
+				width:14px;
+				height:13px;
+				background:url(../images/icon-xing.jpg) no-repeat;
+				display:inline-block;
+				
+			}
+			.t-box .title .title-l .t-1 span{
+				font-size:11px;
+				color:#666;
+			}
+			.t-box .title .title-l .t-2 a{
+				font-size:11px;
+				color:#f76120;
+				
+				
+			}
+			.t-box .title .title-l .t-3 {
+				
+				border-right:1px solid #ddd;
+			}
+			.t-box .title .title-l .t-3 span{
+				font-size:11px;
+				color:#666;
+			}
+			.t-box .title .title-l .t-3 span{
+				padding-right:11px;
+			}
+			.t-box .title .title-l .t-4 i{
+				width:9px;
+				height:13px;
+				background:url(../images/icon-phone.jpg) no-repeat;
+				display:inline-block;
+				
+			}
+			.t-box .title .title-l .t-4 span{
+				font-size:11px;
+				color:#666;
+			}
+			.t-box .title .title-r{
+				float:right;
+				margin-right:90px;
+			}
+			.t-box .title .title-r li{
+				font-size:11px;
+				color:#666;
+				float:left;
+				margin-right:10px;
+				
+				border-right:1px solid #666;
+			}
+			.t-box .title .title-r .r-1{
+				border-right:none;
+			}
+		
+			.t-box .title .title-r .r-2 i{
+				width:6px;
+				height:3px;
+				background:url(../images/icon-jiantou.jpg) no-repeat;
+				display:inline-block;
+				margin-right:7px;
+			}
+			.logo h2{
+				float:left;
+				width:83px;
+				height:55px;
+				background:url(../images/logo-meituan.jpg) no-repeat;
+				text-indent:-999em;
+				margin-top:17px;
+				margin-left:83px;
+			}
+			.logo .big-p{
+				float:left;
+				margin-top:25px;
+				margin-left:10px;
+			}
+			.logo .sh{
+				font-szie:18px;
+				
+			}
+			.logo .city{
+				font-size:12px;
+				color:#999;
+				margin-top:10px;
+				width:75px;
+				height:20px;
+				border:1px solid #eee;
+				
+			}
+			.logo .input{
+				float:left;
+				margin-top:16px;
+				margin-left:186px;
+				position:relative;
+			}
+			.logo .input .inp input{
+				width:417px;
+				height:38px;
+				border:2px solid #2db8ad;
+				font-size:12px;
+				color:#666;
+				padding-left:67px;
+				line-height:28px;
+			}
+		
+			.logo .input .inp .tg span{
+				font-size:12px;
+				color:#666;
+				position:absolute;
+				top:14px;
+				left:14px;
+			}
+			.logo .input .inp .tg i{
+				width:6px;
+				height:3px;
+				background:url(../images/icon-sanjiao.png) no-repeat;
+				display:inline-block;
+				vertical-align: center;
+				position:absolute;
+				left:49px;
+				top:17px;
+			}
+			.logo .input .inp .ss{
+				width:63px;
+				height:38px;
+				background:#2db8ad;
+				color:#fff;
+				font-size:15px;
+				text-align:center;
+				line-height:38px;
+				position:absolute;
+				top:2px;
+				right:0;
+			}
+			.logo .input li{
+				font-size:12px;
+				color:#666;
+				float:left;
+				margin-top:14px;
+				margin-right:20px;
+			}
+			.logo .back-box{
+				float:right;
+				margin-top:24px;
+				margin-left:174px;
+			}
+			.logo .back {
+				float:left;
+				margin-right:23px;
+			}
+			.logo .back i{
+				width:23px;
+				height:23px;
+				background:url(../images/icon-suishitui.jpg) no-repeat;
+				display:inline-block;
+			}
+			.logo .back p{
+				font-size:12px;
+				color:#999;
+			}
+			.list-box{
+				height:522px;
+				margin-top:10px;
+				margin-left:83px;
+			}
+			.list-box .list-t{
+				width:1168px;
+				height:38px;
+				background:#2bb8aa;
+				font-size:15px;
+				color:#fff;
+				font-weight:bold;
+				line-height:38px;
+			}
+			.list-box .list-t .first{
+				float:left;
+				margin-left:178px;
+			}
+			.list-box .list-t .first p{
+				margin-right:32px;
+			}
+				
+			.list-box .list-t p{
+				margin-left:14px;
+				float:left;
+			}
+			.list-box .list-bm .bm-l{
+				float:left;
+				height:477px;
+				width:245px;
+				background:#fafafa;
+				border:1px solid #eee;
+			}
+			.list-box .list-bm .bm-l li {
+				width:225px;
+				height:28px;
+				border-bottom:1px solid #eee;
+				margin-left:8px;
+				padding-top:22px;
+			}
+			.list-box .list-bm .bm-l li b{
+				font-size:15px;
+				color:#333;
+				margin-left:15px;
+			}
+			.list-box .list-bm .bm-l li span{
+				font-size:13px;
+				color:#999;
+				margin-left:73px;
+				
+			}
+			.list-box .list-bm .bm-c{
+				width:690px;
+				margin-left:18px;
+			}
+			.list-box .list-bm .bm-c .hot{
+				float:left;
+				
+				height:158px;
+				width:680px;
+			}
+			.list-box .list-bm .bm-c li{
+				float:left;
+				height:52px;
+				border-bottom:1px solid #eee;
+				font-szie:11px;
+				color:#999;
+				margin-right:20px;
+				line-height:52px;
+			}
+			.list-box .list-bm .bm-c li i{
+				width:15px;
+				height:15px;
+				background:url(../images/icon-hot.jpg) no-repeat;
+				display:inline-block;
+			}
+			.list-box .list-bm .bm-c .color{
+				color:#f76120;
+			}
+			.list-box .list-bm .bm-c .food{
+				float:left;
+			}
+			.list-box .list-bm .bm-c .food .img-1{
+				float:left;
+			}
+			.list-box .list-bm .bm-c .food .img-1 .title-p{
+				
+			}
+			.list-box .list-bm .bm-c .food .img-1 .p1{
+				font-size:13px;
+				color:#666;
+			}
+			.list-box .list-bm .bm-c .food .img-1 .p2{
+				font-size:12px;
+				color:#999;
+			}
+			.list-box .list-bm .bm-c .food .price{
+				
+				font-size:22px;
+				color:#f76120;
+			}
+			.list-box .list-bm .bm-r{
+				float:right;
+				width:199px;
+				height:480px;
+				border:1px solid #eee;
+				border-top:none;
+				margin-right:110px;
+			}
+			.list-box .list-bm .bm-r .bg-1{
+				
+				width:199px;
+				height:158px;
+				border-bottom:1px solid #eee;
+				background:url(../images/app-qrcode.v77087a3d.png) no-repeat;
+			}
+			.list-box .list-bm .bm-r .bg-2{
+				width:199px;
+				height:318px;
+				background:url(../images/d06c1053c75f0914f2b61af347ffdae237740.jpg) no-repeat;
+			}
+			.store .time{
+				float:left;
+				width:224px;
+				height:41px;
+				background:url(../images/img-time.jpg) no-repeat;
+				border:1px solid #eee;
+				margin-left:8px;
+				margin-top:30px;
+			}
+			.store .s-t{
+				float:left;
+				height:42px;
+				margin-left:83px;
+				margin-top:15px;
+			}
+			.store .s-t i{
+				width:38px;
+				height:42px;
+				background:url(../images/icon-store.jpg) no-repeat 10px 8px;
+				display:inline-block;
+			} 
+			.store .s-t span{
+				font-size:20px;
+				color:#666;
+			}
+			.store .s-img{
+				width:1145px;
+				height:248px;
+				border:1px solid #eee;
+				margin-left:83px;
+				padding-left:15px;
+				padding-top:10px;
+			}
+			.store .s-img .img-box{
+				float:left;
+				width:201px;
+				height:232px;
+				margin-right:28px;
+			}
+			.store .s-img .niu{
+				font-size:15px;
+				color:#666;
+				font-weight:bold;
+				margin-top:20px;
+			}
+			.store .s-img .big-price{
+				width:203px;
+				border-bottom:1px dotted #ddd;
+				margin-top:15px;
+				padding-bottom:10px;
+			}
+			.store .s-img .price1{
+				font-size:12px;
+				color:#f76120;
+			}
+			.store .s-img .price2{
+				font-size:12px;
+				color:#999;
+			}
+			.store .s-img .price3{
+				width:96px;
+				height:18px;
+				background:#f76120;
+				color:#fff;
+				font-size:12px;
+				font-weight:bold;
+				text-align:center;
+				line-height:18px;
+				margin-top:10px;
+			}
+			.food .food-t{
+				margin-left:83px;
+			}
+			.food .food-t i{
+				width:40px;
+				height:29px;
+				background:url(../images/icon-meishi.jpg) no-repeat;
+				display:inline-block;
+			}
+			.food .food-t span{
+				font-size:20px;
+				color:#666;
+			}
+			.food .food-img{
+				width:1168px;
+				height:617px;
+				border:1px solid #eee;
+				margin-left:83px;
+			}
+			.food .food-img .fi{
+				 width:290px;
+				 height:310px;
+				 border:1px solid #eee;
+				 float:left;
+			}
+			.food .food-img .fi .fi-t{
+			
+				border-bottom:1px dotted #eee;
+				width:260px;
+				margin-left:15px;
+			}
+			.food .food-img .fi .p-1{
+				font-size:14px;
+				color:#666;
+				font-weight:bold;
+				margin-top:16px;
+			} 
+			.food .food-img .fi .p-2{
+				font-size:12px;
+				color:#999;
+				margin-top:10px;
+			}
+			.food .food-img .fi .p-3{
+				font-size:15px;
+				color:#f76120;
+				margin-top:12px;
+			}
+			.food .food-img .fi .p-4{
+				font-size:12px;
+				color:#999;
+				margin-top:10px;
+				padding-left:15px;
+			}
+			.more{
+				width:1168px;
+				height:44px;
+				background:#f6f6f6;
+				font-size:14px;
+				color:#666;
+				text-align:center;
+				line-height:44px;
+				margin-left:83px;
+				margin-bottom:30px;
+			}
+			.tuan{
+				width:1092px;
+				height:24px;
+				background:#f9f9f9;
+				border:1px solid #eee;
+				margin-left:83px;
+			}
+			.tuan li{
+				float:left;
+				width:90px;
+				font-size:11px;
+				color:#666;
+				border-right:1px solid #eee;
+				line-height:24px;
+				text-align:center;
+			}
+			.tuan li .bg-color{
+				background:#eee;
+			}
+			.gou {
+				width:1166px;
+				height:40px;
+				border:1px solid #eee;
+				margin-left:83px;
+			}
+			.gou a{
+				font-size:11px;
+				color:#666;
+				width:90px;
+				line-height:40px;
+				text-align:center;
+				display:inline-block;
+				margin-right:15px;
+			}
+			.line{
+				width:1166px;
+				height:1px;
+				border-top:1px solid #eee;
+				border-bottom:1px solid #eee;
+				margin-left:83px;
+				margin-top:18px;
+			}
+			.help{
+				margin-left:83px;
+			}
+			.help ul{
+				float:left;
+				margin-right:130px;
+			}
+			.help .get{
+				font-size:14px;
+				color:#666;
+				margin-top:25px;
+				margin-bottom:22px;
+				font-weight:bold;
+			}
+			.help .order{
+				font-size:12px;
+				color:#999;
+				margin-bottom:10px;
+			}
+			.service{
+				float:left;
+				margin-top:18px;
+				border-left:1px solid #eee;
+				padding-left:35px;
+			}
+			.service .phone{
+				margin-bottom:36px;
+			}
+			.service .phone i{
+				width:56px;
+				height:46px;
+				background:url(../images/icon-call.jpg) no-repeat;
+				display:inline-block;
+			}
+			.service .phone p{
+				font-size:13px;
+				color:#666;
+				margin-top:10px;
+			}
+			.service .return p{
+				font-size:12px;
+				color:#666;
+				margin-bottom:6px;
+			}
+			.service .return .green{
+				color:#2bb8aa;
+			}
+			.foot{
+				width:1349px;
+				height:140px;
+				background:#f9f9f9;
+				border-top:1px solid #999;
+			}
+			.foot p{
+				font-size:12px;
+				color:#666;
+				text-align:center;
+				padding-top:28px;
+				margin-bottom:28px;
+			}
+			.foot img {
+				margin-left:372px;
+			}

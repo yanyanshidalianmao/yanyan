@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script src="js/jquery-1.7.2.js"></script>
+		<script>
+			window.onload=function(){
+				var oPhotos=document.getElementById('photos');
+				var oPs=document.getElementById('ps');
+				var oCircle=document.getElementById('circle');
+				var aPs=oPs.getElementsByTagName('li');
+				var aCircle=oCircle.getElementsByTagName('li');
+				var oLeft=document.getElementById('left');
+				var oRight=document.getElementById('right');
+				oPs.style.width=480*aPs.length+'px';
+				
+				var iNow=0;
+				for(var i=0;i<aCircle.length;i++){
+					aCircle[i].index=i;
+					aCircle[i].onmouseover=function(){
+						iNow=this.index;
+						tab();
+					}
+				}
+				function tab(){
+					for(var i=0;i<aCircle.length;i++){
+						aCircle[i].className='';
+					}
+					aCircle[iNow].className='active';
+					oPs.style.left = -iNow * 480 + 'px';
+				}
+				oLeft.onclick = function(){
+	                iNow--;
+	                if(iNow < 0){
+	                    iNow = aCircle.length - 1;
+	                }
+	                tab();
+				};
+				oRight.onclick = function(){
+	                iNow++;
+	                if(iNow > (aCircle.length-1)){
+	                    iNow = 0;
+	                }
+	                tab();
+	         	};
+	         	//bird滑动
+	         	$('.header-bird').animate({
+	         		right:400+'px'
+	         	},3000);
+	         	$('#h-hello').click(function(){
+	         		$('.header-bird').animate({
+	         			right:0
+	         		},2000);
+	         	});
+	         	//work滑动效果
+				 $('#h-w').click(function(){
+	            	$('body').animate({
+	            		scrollTop:450+'px'
+	            	});
+	            	
+	            });
+	            //poem滑动效果
+				 $('#h-poem').click(function(){
+	            	$('body').animate({
+	            		scrollTop:1200+'px'
+	            	});
+	            	
+	            });
+	            //contact滑动效果
+				 $('#h-contact').click(function(){
+	            	$('body').animate({
+	            		scrollTop:2000+'px'
+	            	});
+	            	
+	            });
+			
+          	};
+		</script>
+	</head>
+	<body>
+		<div class="header ">
+			<div class="header-bird">
+				
+			</div>
+			<ul class="header-cont clearfix">
+				<li id="h-hello"><a href="#hello-scroll">hello</a></li>
+				<li id="h-w"><a href="#work-scroll">work</a></li>
+				<li id="h-poem"><a href="#poem-scroll">poem</a></li>
+				<li id="h-contact"><a href="#contact-scroll">contact</a></li>
+				<li><a href="../../index.html">back</a></li>
+			</ul>
+		</div>
+		<div class="hello">
+			<div class="hello-cont">
+				<img src="images/hello.png" alt=""/>
+				<p>Welcome To My Personal Homepage</p><br />
+				<p>余生，用尽洪荒之力爱我自己</p><br />
+				<p>222222222222</p>
+				<p>222222222222</p>
+				<p>222222222222</p>
+				<p><img src="images/longmao3.gif"/></p><br />
+				
+			</div>
+		</div>
+		<div class="work">
+			<div class="w-title">
+				<img src="images/work.png" alt=""/>
+				<h3>随手拍</h3>
+			</div>
+			<div>
+				<div class="photos" id="photos">
+					<a href="javascript:;"id="left" class="left"><</a>
+					<a href="javascript:;" id="right" class="right">></a>
+					<ul class="ps" id="ps">
+						<li><img src="images/1.jpg" alt=""/></li>
+						<li><img src="images/2.jpg" alt=""/></li>
+						<li><img src="images/3.jpg" alt=""/></li>
+						<li><img src="images/4.jpg" alt=""/></li>
+						<li><img src="images/5.jpg" alt=""/></li>
+					</ul>
+					<ol class="circle" id="circle">
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>
+				<div class="draw"></div>
+			</div>
+			
+		</div>
+		<div class="poem">
+			<div class="p-title">poem</div>
+			<div class="p-word">
+				<span>
+					我要得一点也不多，<br/>
+					只想有个大大的落地窗，<br/>
+					单纯的晒晒太阳；<br/>
+					<br/>
+					我喜欢我手边的书伴着咖啡的醇香，<br/>
+					在暮色里留下昏黄的灯光；<br/>
+					<br/>
+					沙发上的小窝藏着一只慵懒的猫；<br/>
+					它蜷成一团，呼噜呼噜；<br/>
+					我亲爱的狗就卧在脚边，<br/>
+					它浓密的毛，忽闪忽闪；<br/>
+					<br/>
+					我躺在飘窗上等待春天，<br/>
+					清凉的风撩动我的裙边；<br/>
+					那圆的月就挂在窗前，<br/>
+					它永远也读不懂炽热的骄阳；<br/>
+				</span>
+				<span>
+					我洗好的衣服在杆上飘扬着，滴答滴答，<br/>
+					我挂在墙上的钟在摇摆着，滴答滴答，<br/>
+					我的日子在慵懒中悄无声息地，滴答滴答；<br/>
+					<br/>
+					我骑着单车穿梭在城市的每一个角落，<br/>
+					我喝着前门的羊汤与798的咖啡，<br/>
+					我在后海的酒中昏昏欲醉；<br/>
+					<br/>
+					我穿着白色的衬衫在风中呼啸而过，<br/>
+					我期待遇着一个同样穿衬衫的少年，<br/>
+					与他擦肩而过，相视一笑；<br/>
+					<br/>
+					我在雨中大呼小叫，<br/>
+					带着一把长柄的透明伞；<br/>
+					我唱不出动人的小情歌，<br/>
+					也写不出优美的小情诗，<br/>
+				</span>	
+				<span>
+					
+					我的笔尖在信纸上肆意挥舞，<br/>
+					我不是个舞者，<br/>
+					而是个生活的忍者；<br/>
+					<br/>
+					城市很大，人很多，<br/>
+					我要得一点也不多，<br/>
+					只想有个温暖的小窝。<br/>
+
+				</span>
+				<img src="images/longmao2.png"/>
+			</div>
+		</div>
+		<div class="contact clearfix">
+			<div class="list fl">
+				<img src="images/contact.png" alt=""/>
+				<ul class="c-cout">
+					<li>
+						手机号：18202669048
+					</li>
+					<li>
+						邮箱：2218816484@qq.com
+					</li>
+					<li>
+						微博：@弓长女开是大脸猫
+					</li>
+					<li>
+						
+					</li>
+				</ul>
+			</div>
+			<img src="images/longmao.gif" alt="" class="cat fl"/>
+			<div class="hao fl">
+				<p>咖啡里的慢时光</p>
+				<img src="images/gonghao.jpg"/>
+			</div>
+		</div>
+	</body>
+</html>

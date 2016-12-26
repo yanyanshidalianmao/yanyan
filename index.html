@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script src="js/common.js"></script>
+		<script src="js/jquery-1.7.2.js"></script>
+		<script src="js/move.js"></script>
+		<script>
+			$(function(){
+				//sheep
+				$('#home').click(function(){
+					$('#home1').show();
+				});
+				$('#sheep').click(function(){
+					$('#home1').hide();
+				});
+				$('#ME').click(function(){
+					$('#me').show();
+				});
+				$('#sheep1').click(function(){
+					$('#me').hide();
+				});
+				$('#Hobbies').click(function(){
+					$('#Hob').show();
+				});
+				$('#sheep2').click(function(){
+					$('#Hob').hide();
+				});
+				//打字效果
+				var str = '我一路微笑向你走来，   你不必看到我曾踏过泥泞，  伤痕累累。    但请你张开双臂抱抱我，   告诉我一切都值得，   一切都会过去............';
+				var oCont=document.getElementById('h-cont');
+	            for(var i = 0; i < str.length; i++){
+	                var oSpn = document.createElement('span');
+	                oSpn.innerHTML = str.charAt(i);
+	                oCont.appendChild(oSpn);
+	            }
+	
+	            var aSpan = document.getElementsByTagName('span');
+	
+	            var timer = null;
+	            var iNow = 0;
+	            timer = setInterval(function(){
+	                move(aSpan[iNow],{opacity:1});
+	                iNow++;
+	                if(iNow>=aSpan.length){
+	                    clearInterval(timer);
+	                }
+	            },300);
+	            
+	            //滑动效果
+	            $('#Works').click(function(){
+	            	$('body').animate({
+	            		scrollTop:1800+'px'
+	            	});
+	            	
+	            });
+	            
+	           	//css作品
+	           	$('.work1').mouseover(function(){
+	           		$('.m-web').show();
+	           	});
+	           	$('.work1').mouseout(function(){
+	           		$('.m-web').hide();
+	           	});
+	        //poem滚动条
+//	        $('.bar').mousedown(function(ev){
+//              var disY = ev.clientY - $(this).offset().top;
+//              function move(ev){
+//                  $('.bar').css({
+//                      top:ev.clientY - disY
+//                  });
+//                  var t=ev.clientY - disY;
+//                  if(t<=0){
+//                  	t=0;
+//                  }
+//                  if(t>=$('.p-right').height()- $('.bar').height()){
+//                  	t=$('.p-right').height()- $('.bar').height();
+//                  }
+//                  var scale=t/$('.p-right').height()- $('.bar').height();
+//                  $('.p-cont').css({
+//                  	top:-scale * ($('.p-cont').height() - $('.p-left').height())
+//                  });
+//                  $('.bar').css({
+//                  	top:t
+//                  });
+//              }
+//              function up(){
+//                  $(document).unbind('mousemove',move);
+//                  $(document).unbind('mouseup',up);
+//              }
+//              $(document).bind('mousemove',move);
+//              $(document).bind('mouseup',up);
+//
+//              return false;
+//          });
+			//多图片展开
+//				var oDraw=document.getElementById('draw');
+//				var aLi = oDraw.getElementsByTagName('li');
+//	           
+//	            var arrPos = [];
+//	            for(var i = 0;i < aLi.length; i++){
+//	                arrPos[i] = {
+//	                    left:aLi[i].offsetLeft,
+//	                    top:aLi[i].offsetTop
+//	                };
+//	            }
+//	            for(var i = 0; i<aLi.length; i++){
+//	                aLi[i].style.position = 'absolute';
+//	                aLi[i].style.left = arrPos[i].left + 'px';
+//	                aLi[i].style.top = arrPos[i].top + 'px';
+//	                aLi[i].style.margin = 0;
+//	            }
+//	
+//	            for(var i = 0; i < aLi.length; i++){
+//	                aLi[i].index = i;
+//	                aLi[i].onmouseover = function(){
+//	                    this.style.zIndex = 2;
+//	
+//	                    move(this,{width:400,height:400,left:arrPos[this.index].left - 50,top:arrPos[this.index].top - 50});
+//	
+//	                };
+//	                aLi[i].onmouseout = function(){
+//	                    this.style.zIndex = 1;
+//	                    move(this,{width:200,height:200,left:arrPos[this.index].left,top:arrPos[this.index].top});
+//	                };
+//	            }
+	        	//遮罩层
+	        	$('.open').click(function(){
+	        		$('.menu').show();
+	        	});
+	        	$('.sheep-close').click(function(){
+	        		$('.menu').hide();
+	        	});
+	       
+			});
+		</script>
+	</head>
+	<body>
+		<div class="warper box">
+			<div class="moon"></div>
+			<div class="clouds">
+				<div class="c-main">
+					<ul class="title" id="title">
+						<li id="home">
+							<a href="javascript:;">HOME</a>
+						</li>
+						<li id="ME">
+							<a href="javascript:;">AboutMe</a>
+						</li>
+						<li id='Works'>
+							<a href="javascript:;">PersonalWorks</a>
+						</li>
+						<li id="Hobbies">
+							<a href="javascript:;">Hobbies</a>
+						</li>
+						<li>
+							<a href="javascript:;">ContactMe</a>
+						</li>
+					</ul>
+					<div>
+						<img src="images/flow.png" class="flow" alt="" /> 
+						<img src="images/house.png" class="house" alt="" />
+					</div>
+					<div class="cont">
+						<div class="home1" id="home1">
+							<div class="sheep" id="sheep">
+								<a href="#close"><img src="images/close.png" alt=''/></a>
+							</div>
+							<p class="h-cont" id="h-cont"></p>
+						</div>
+						<div class="me" id="me">
+							<div class="sheep" id="sheep1">
+								<a href="#close"><img src="images/close.png" alt=''/></a>
+							</div>
+							<ul class="m-cont">
+								<li>写点什么呢？</li>
+								<li>个人简介</li>
+								<li>得了一敲代码就头疼的病</li>
+							</ul>
+						</div>
+						<div class="Hob" id="Hob">
+							<div class="sheep" id="sheep2">
+								<a href="#close"><img src="images/close.png" alt=''/></a>
+							</div>
+								<ul class="H-cont" id="H-cont">
+									<li><a href="#poem">一点诗意</a></li>
+									<li><a href="#big-draw">随手拍</a></li>
+									<li><a href="#">偶尔涂鸦</a></li>
+								</ul>
+						</div>
+					</div>
+				</div>
+				<div class="open">
+					<span class="nav-bar"></span>
+					<span class="nav-bar"></span>
+					<span class="nav-bar"></span>
+					<span class="nav-bar"></span>
+					<span class="nav-bar"></span>
+				</div>
+				<div class="menu">
+					<div class="sheep-close">
+						<a href="#close"><img src="images/close.png" alt=''/></a>
+					</div>
+					<ul class="menu-cont">
+						<li><a href="javascript:;">home</a></li>
+						<li><a href="javascript:;">about</a></li>
+						<li><a href="html/hobby/index.html">works</a></li>
+						<li><a href="html/hobby/index.html">hobbies</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="hills"></div>
+			<div class="main">
+				<ul class="m-works" id="m-works">
+					<li class="work1">
+						<a href="javascript:;">Css作品</a>
+						<div class='m-web'>
+							<p><a href="html/page-css/meilishuo/code/meilishuo.html">美丽说官网</a></p>
+							<p><a href="html/page-css/oppo手机/code/oppo.html">oppo手机官网</a></p>
+							<p><a href="javascript:;">小米手机官网</a></p>
+							<p><a href="html/page-css/美团/code/meituan.html">美团官网</a></p>
+						</div>
+					</li>
+					<li class="work2"><a href="javascript:;">JavaScript作品</a></li>
+					<li class="work3"><a href="javascript:;">ajax作品</a></li>
+					<li class="work4"><a href="javascript:;">HTML5作品</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

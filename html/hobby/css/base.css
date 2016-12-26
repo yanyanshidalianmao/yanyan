@@ -1,0 +1,218 @@
+*{margin:0;padding:0}
+ol,ul,dl{list-style: none;}
+a{color:#000;text-decoration:none;}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:'';
+}
+.clearfix{
+	zoom:1;
+}
+.warper{
+	width:1200;
+	margin:0 auto;
+}
+input{outline: none;border:none}
+.fl{float:left}
+.fr{float:right}
+body{
+	width:100%;
+	height:100%;;
+	background:url(../images/bg1.jpg) no-repeat;
+}
+.header{
+	width:100%;
+	height:145px;
+	background:url(../images/the-header.jpg) repeat-x; 
+	position: fixed;
+	padding-top:20px;
+	z-index:999;
+}
+.header .header-bird{
+	width:340px;
+	height:240px;
+	background:url(../images/pigeon.png) no-repeat;
+	position:absolute;
+	right:0;
+	top:20px;	
+}
+.header .header-cont{
+	margin-left:80px;
+}
+.header .header-cont li{
+	float:left;
+	font-family: "微软雅黑";
+	font-size:20px;
+	margin-left:50px;
+	margin-top:69px;
+}
+.header .header-cont li:hover{
+	background:#fff;
+}
+.hello{
+	width:960px;;
+	height:400px;
+	padding-top:200px;
+	margin-left:80px;
+}
+.hello .hello-cont img{
+	margin-bottom:20px;
+}
+.hello .hello-cont P{
+	font-family: Helvetica, sans-serif;
+    color: #616265;
+    font-size: 23px;
+}
+.work{
+	width:100%;
+	height:760px;
+	background:url(../images/bg2.jpg) no-repeat;
+}
+.work .poem{
+	width:400px;
+	height:400px;
+	background:url(../images/tweet-speech.png) no-repeat;
+	margin-left:100px;
+}
+.work .poem h2{
+	font-size:30px;
+	font-weight: bold;
+	padding-top:80px;
+	margin-left:90px;
+}
+.work .poem .p-cont{
+	width:800px;
+	height:200px;
+	border:5px solid #94b2a2;
+  	margin-left:200px;
+	
+}
+.work .w-title img{
+	margin-left:80px;
+	margin-top:20px;
+	
+}
+.work .w-title h3{
+	margin-left:200px;
+	color:#fff;
+	font-size:30px;
+}
+
+.photos{
+	width:480px;
+	height:640px;
+	position:relative;
+	overflow: hidden;
+	margin-left:50px;
+}
+.photos .ps{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.photos .ps li{
+	width:480px;
+	height:630px;
+	float:left;
+	
+}
+.photos .circle{
+	width:100px;
+	background:rgba(0,0,0,.5);
+	position:absolute;
+	left:50%;
+	margin-left:-50px;
+	bottom:10px;
+	text-align: center;
+	border-radius:20px;
+}
+.photos .circle li{
+	width:9px;
+	height:9px;
+	border-radius:50%;
+	background: #B7B7B7;
+	display: inline-block;
+	cursor:pointer;
+	
+}
+.photos .circle .active{
+	 background: #F40;
+}
+.photos a{
+	width:24px;
+	height:36px;
+	position:absolute;
+	top:50%;
+	margin-top:-18px;
+	background: rgba(0,0,0,.3);
+	color:#fff;
+	font-size:20px;
+	line-height: 36px;
+	text-align: center;
+	z-index:22;
+	
+}
+.photos .left{
+	left:0;
+}
+.photos .right{
+	right:0;
+}
+.photos a:hover{
+	background: rgba(0,0,0,.5);
+}
+.poem .p-title{
+	width:102px;
+	height:42px;
+	background:url(../images/poem.png) no-repeat;
+	font-size:34px;
+	font-weight: bold;
+	color:#616265;
+	text-align: center;
+	margin-left:80px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.poem .p-word{
+	width:80%;
+	height:350px;
+	margin-left:90px;
+	
+}
+.poem .p-word span{
+	float:left;
+	font-family:'黑体';
+	font-size:16px;
+	color:#857969;
+}
+.poem .p-word img{
+	margin-top:20px;
+	margin-right:180px;
+}
+.contact{
+	width:100%;
+	height:400px;
+	background:url(../images/the-contact-bg.jpg) no-repeat;
+}
+.contact img{
+	margin-left:80px;
+	margin-top:20px;
+}
+.contact .c-cout{
+	margin-left:50px;
+}
+.contact .c-cout li{
+	margin:20px;
+	font-family: Helvetica, sans-serif;
+    color: #fff;
+    font-size:25px;
+}
+.contact .hao{
+	margin-top:20px;
+}
+.contact .hao p{
+	margin-left:100px;
+	font-size:20px;
+	color:#fff;
+}

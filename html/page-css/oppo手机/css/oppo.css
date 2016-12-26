@@ -1,0 +1,447 @@
+*{
+				margin:0;
+				padding:0
+			}
+			.clearfix:after{
+				display:block;
+				clear:both;
+				content:"";
+			}
+			.clearfix{
+				zoom:1;
+			}
+			ul{
+				list-style:none;
+			}
+			.t-box{
+				width:1330px;
+				height:742px;
+				border-top:3px solid #00925f;
+			}
+			.t-box .t-list{
+				height:37px;
+				background:#2b2b2b;
+			}
+			.t-box .t-list .list-l{
+				padding-top:10px;
+				padding-left:77px;
+				float:left;
+			}
+			.t-box .t-list .i-1{
+				width:22px;
+				height:16px;
+				background:url(../images/icon-wb.jpg) no-repeat;
+				float:left;
+			}
+			.t-box .t-list .i-2{
+				width:16px;
+				height:22px;
+				background:url(../images/icon-call.jpg) no-repeat;
+				float:left;
+				margin-left:5px;
+				margin-right:18px;
+			}
+			.t-box .t-list .call{
+				font-size:12px;
+				color:#00925F;
+				float:left;
+			}
+			.t-box .t-list .list-r{
+				float:right;
+				margin-right:76px;
+			}
+			.t-box .t-list .list-r li{
+				font-size:12px;
+				color:#b2b2b2;
+				float:left;
+				line-height:15px;
+				border-right:1px solid #474747;
+				padding:0 15px;
+				margin-top:10px;
+			}
+			.t-box .t-list .list-r li i{
+				float:left;
+				width:22px;
+				height:18px;
+				background:url(../images/icon-buycar.jpg) no-repeat;
+				margin-right:8px;
+				
+			}
+			.t-box .t-list .list-r li span{
+				margin-right:42px;
+				
+			}
+			.t-box .c-list{
+				height:85px;
+			}
+			.t-box .c-list h2{
+				margin-left:75px;
+				float:left;
+				width:170px;
+				height:65px;
+				background:url(../images/logo.png) no-repeat;
+				text-indent:-9999em;
+			}
+			.t-box .c-list a span{
+				
+			}
+			
+			.t-box .c-list ul{
+				float:right;
+				margin:39px 56px 34px 0 ;
+				
+			}
+			.t-box .c-list li{
+				float:left;
+				font-size:14px;
+				color:#2B2B2B;
+				font-weight: bold;
+				margin-right:40px;
+			}
+			.t-box .bm-img{
+				height:615px;
+				background:url(../images/img-liyif.jpg) no-repeat;
+				position:relative;
+				
+			}
+			
+			.t-box .bm-img .phone{
+				width:1180px;
+				height:630px;
+				background: url(../images/img-po.png) no-repeat;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				margin-left: -590px;
+			}
+			.t-box .bm-img .tou{
+				width:1330px;
+				height:71px;
+				background:#fff;
+				position:absolute;
+				bottom:0;
+				left:0;
+				opacity:0.5;
+				filter:alpha(opacity=50);
+			}
+			.size{
+				width:1330px;
+				height:747px;
+				background:#f2f2f2;
+			}
+			.size .size-p{
+				text-align:center;
+				padding-top:51px;
+			}
+			.size .p1{
+				font-size:26px;
+				
+			}
+			.size .p2{
+				font-size:14px;
+				margin-top:28px;
+			}
+			.size .s1{
+				color:#878787;
+			}
+			.size .s2{
+				color:#58aa84;
+			}
+			.size .big-img{
+				width:1200px;
+				padding:0 70px;
+			}
+			.size .size-img{
+				height:560px;
+				width:280px;
+				border-bottom:4px solid #dfdfdf;
+				float:left;
+				margin-right:20px;
+			}
+			.size .size-img .img2{
+			 	display:block;
+			}
+			.size .size-img .name{
+				text-align: center;
+			}
+			.size .size-img .n1{
+				font-size:17px;
+				color:#2b2b2b;
+				font-weight: bold;
+				margin-top:25px;
+			}
+			.size .size-img .n2{
+				font-size:12px;
+				color:#b4b4b4;
+				margin:12px  0;
+			}
+			.size .size-img .n3{
+				font-size:13px;
+				color:#00925f;
+				
+			}
+			.size .size-img .n3 i{
+				width:13px;
+				height:13px;
+				background:url(../images/size.jpg) no-repeat 0 center;
+				display:inline-block;
+			}
+			.acc{
+				height:1078px;
+				background:#f6f6f6;
+			}
+			.acc p{
+				font-size:25px;
+				color:#2b2b2b;
+				text-align: center;
+				
+			}
+			.acc .acc-img{
+				width:1180px;
+				height:880px;
+				margin-top:50px;
+			}
+			.acc .acc-img .acc-l{
+				width:580px;
+				float:left;
+			}
+			.acc .acc-img .acc-l .left-1{
+				width:284px;
+				height:577px;
+				border-bottom:5px solid #e1e1e1;
+				background:#fff;
+				text-align:center;
+				float:left;
+				
+			}
+			.acc .acc-img .acc-l .left-1 .img-p{
+				padding-top:40px;
+				padding-bottom:40px;
+			}
+			.acc .acc-img .acc-l .left-1 .p-o{
+				font-size:12px;
+				color:#868686;
+				margin-bottom:10px;
+			}
+			.acc .acc-img .acc-l .left-1 .p-t{
+				font-size:20px;
+				color:#565656;
+				margin-bottom:10px;
+			}
+			.acc .acc-img .acc-l .left-1 .p-e{
+				font-size:11px;
+				color:#008958;
+			}
+			.acc .acc-img .acc-l .left-2{
+				width:270px;
+				height:270px;
+				border:5px solid #eaeaea;
+				background:#fff;
+				float:left;
+				margin-left:16px;
+				
+			}
+			.acc .acc-img .acc-l .left-2 .p-1{
+				height:56px;
+				color:#576267;
+				font-size:11px;
+				font-weight:bold;
+				text-align:center;
+				line-height:56px;
+				border-bottom:1px solid #e6e6e6;
+				margin:0 30px;
+			}
+			.acc .acc-img .acc-l .left-2 .big-p{
+				height:150px;
+				width:225px;
+				margin-left:25px;
+				border-bottom:1px solid #e6e6e6;
+			}
+			.acc .acc-img .acc-l .left-2 .p-2{
+				height:18px;
+				float:left;
+				margin-right:40px;
+				margin-bottom:16px;
+			}
+			.acc .acc-img .acc-l .left-2 .p-2 i{
+				width:12px;
+				height:18px;
+				background:url(../images/icon-ke.jpg) no-repeat;
+				display:inline-block;
+				margin-top:25px;
+			}
+			.acc .acc-img .acc-l .left-2 .p-2 span{
+				font-size:12px;
+				color:#b2b2b2;
+				line-height:18px;
+			}
+			.acc .acc-img .acc-l .left-2 .last-p{
+				text-align:center;
+				margin-top:22px;
+			}
+			.acc .acc-img .acc-l .left-2 .last-p span{
+				font-size:12px;
+				color:#00925f;
+			}
+			.acc .acc-img .acc-l .left-2 .last-p i{
+				display:inline-block;
+				width:13px;
+				height:13px;
+				background:url(../images/icon-peijian.jpg) no-repeat;
+			}
+			.acc .acc-img .acc-l .left-3{
+				width:278px;
+				height:269px;
+				border-bottom:5px solid #e1e1e1;
+			}
+			.world{
+				width:1330px;
+				height:750px;
+				background:#eaeaea;
+				border-top:3px solid #d9d9d9;
+			}
+			.world .w-p{
+				font-size:26px;
+				padding-top:50px;
+			}
+			.world .w-l{
+				float:left;
+				width:796px;
+				height:560px;
+				margin-left:70px;
+				margin-top:35px;
+			}
+			.world .w-l .w-img{
+				float:left;
+				width:380px;
+				height:264px;
+				background:url(../images/img-buy.jpg) no-repeat;
+				margin-right:18px;
+				margin-bottom: 18px;
+			}
+			.world .w-r{
+				float:left;
+				width:380px;
+				height:560px;
+				background:#fff;
+				margin-top:30px;
+			}
+			.world .w-r .new{
+				float:left;
+				width:190px;
+				height:50px;
+				border-top:2px solid #00925f;
+				text-align: center;
+				line-height:50px;
+				font-size:18px;
+				color:#a7a7a7;
+			}
+			.world .w-r .blog{
+				float:left;
+				width:190px;
+				height:50px;
+				background:#dadada;
+				text-align: center;
+				line-height:50px;
+				font-size:18px;
+				color:#a7a7a7;
+			}
+			.world .w-r .r-img{
+				margin-top:45px;
+				
+			}
+			.world .w-r .ear{
+				width:320px;
+				height:52px;
+				background:#f6f6f6;
+				padding-bottom:40px;
+				font-size:12px;
+				color:#838383;
+				margin-bottom:15px;
+				
+			}
+			.world .w-r .ear i{
+				width:100px;
+				height:90px;
+				background:url(../images/bg-ear.jpg) no-repeat;
+				float:left;
+			}
+			.message{
+				height:365px;
+				color:#fff;
+			}
+			.message .t-m{
+				height:124px;
+				border-bottom:1px solid #eaeaea;
+				background:url(../images/massage.jpg) no-repeat;
+				margin-left:75px;
+			}
+			.message .b-m ul{
+				float:left;
+				
+			}
+			.message .b-m .first{
+				margin-left:77px;
+				margin-top:27px;
+				margin-right:119px;
+			}
+			.message .b-m .two{
+				margin-right:119px;
+				margin-top:27px;
+			}
+			}
+			.message .b-m ul .us{
+				font-size:14px;
+				color:#373737;
+				font-weight:bold;
+				padding-bottom:22px;
+			}
+			.message .b-m li{
+				font-size:12px;
+				color:#838383;
+				margin-bottom:15px;
+			}
+			.message .b-m li i{
+				width:3px;
+				height:3px;
+				background:url(../images/icon-about.jpg) no-repeat;
+				display:inline-block;
+			}
+			.message .b-m li .xinlang{
+				width:18px;
+				height:18px;
+				background:url(../images/icon-weibo.jpg) no-repeat;
+				display:inline-block;
+			}
+			.message .b-m li .tengxun{
+				width:22px;
+				height:20px;
+				background:url(../images/icon-tengxun.jpg) no-repeat;
+				display:inline-block;
+			}
+			.message .b-m li .renren{
+				width:18px;
+				height:20px;
+				background:url(../images/icon-renren.jpg) no-repeat;
+				display:inline-block;
+			}
+			.message .b-m li .kongjian{
+				width:20px;
+				height:20px;
+				background:url(../images/icon-kongjian.jpg) no-repeat;
+				display:inline-block;
+			}
+			.message .b-m li .phone{
+				width:38px;
+				height:36px;
+				background:url(../images/phone.jpg) no-repeat;
+				display:inline-block;
+			}
+			.message .b-m li p{
+				font-size:20px;
+				color:#409f73;
+			}
+			.message .b-m li .small{
+				font-size:12px;
+				color:#576267;
+			}
